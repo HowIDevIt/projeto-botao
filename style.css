@@ -1,0 +1,46 @@
+/* Desktop - 1 */
+*{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: rgba(227, 196, 196, 0.46);
+    mix-blend-mode: normal;
+}
+
+
+
+/* Rectangle 1 */
+.rectangle{
+    
+    position: absolute;
+    left: 555px;
+    right: 554px;
+    top: 462px;
+    bottom: 462px;
+    
+    background: #A48B8B;
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+}
+
+/* Click here */
+.click {
+    position: absolute;
+    width: 221px;
+    height: 60px;
+    left: 610px;
+    top: 482px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.76);
+}
+
+
